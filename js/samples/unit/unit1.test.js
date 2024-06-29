@@ -8,4 +8,9 @@ describe('Hello test', () => {
     it('should be "Hello, Thomas"', () => {
         expect(sayHello("Thomas")).toBe("Hello, Thomas")
     })
+
+    it('should be "Bonjour, Alexandra"', () => {
+        expect(sayHello("Alexandra")).toBe("Bonjour, Alexandra")
+    })
+
 })
